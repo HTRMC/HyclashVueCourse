@@ -2,9 +2,10 @@
 </script>
 
 <template>
-  <nav class="bg-[#0a0f16] border-b border-gray-800 w-full block">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 block">
-      <div class="flex items-center justify-between h-16">
+  <div class="w-full px-4 sm:px-6 lg:px-8 pt-4">
+    <nav class="bg-[#0a0f16] border border-gray-800 rounded-lg max-w-7xl mx-auto">
+      <div class="px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <div class="flex items-center gap-8">
           <div class="flex items-center gap-2">
@@ -31,7 +32,8 @@
             </svg>
           </button>
         </div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </template>
