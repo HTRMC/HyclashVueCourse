@@ -2,17 +2,32 @@
 </script>
 
 <template>
-  <section class="relative py-20 w-full">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section class="relative py-20 w-full overflow-hidden">
+    <!-- Blurry background image -->
+    <div class="absolute inset-0 z-0">
+      <img
+        src="@/assets/hero-bg.jpg"
+        alt="Background"
+        class="w-full h-full object-cover blur-[2px] opacity-90"
+      />
+      <!-- Gradient overlays for fade effect -->
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0e161f]"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-[#0e161f] via-transparent to-[#0e161f]"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <!-- Left side - Welcome text -->
         <div class="space-y-6">
-          <div>
-            <p class="text-gray-400 text-sm uppercase tracking-wider mb-2">WELCOME TO</p>
-            <h1 class="text-5xl md:text-6xl font-bold text-white">HYCLASH</h1>
+          <div class="inline-block">
+            <div class="text-center">
+              <p class="text-gray-400 text-sm uppercase tracking-wider mb-2">WELCOME TO</p>
+              <h1 class="text-5xl md:text-6xl font-bold text-white">HYCLASH</h1>
+            </div>
           </div>
           <p class="text-gray-300 text-lg">
-            An Open-world MMO RPG where you don't just live in a world - you own one.
+            An Open-world MMO RPG where you<br />
+            don't just live in a world - you run one.
           </p>
           <a
             href="https://discord.gg/c9BFeKmcxq"
