@@ -30,12 +30,14 @@
         <!-- Right side - Promotional video/image -->
         <div class="relative">
           <div class="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 aspect-video">
-            <div class="w-full h-full flex items-center justify-center">
-              <div class="text-center space-y-4">
-                <div class="text-6xl">🎮</div>
-                <p class="text-gray-400">Promotional Content Area</p>
-              </div>
-            </div>
+            <iframe
+              class="w-full h-full"
+              src="https://www.youtube.com/embed/s3rI4mhIveA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
