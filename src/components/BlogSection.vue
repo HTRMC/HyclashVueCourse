@@ -34,7 +34,6 @@ const blogPosts = [
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
             <!-- Image -->
             <div class="aspect-video md:aspect-square bg-gray-800 rounded-lg flex items-center justify-center">
-              <div class="text-4xl">📰</div>
             </div>
 
             <!-- Content -->

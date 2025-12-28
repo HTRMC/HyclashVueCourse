@@ -30,7 +30,6 @@ const items = [
         >
           <!-- Image placeholder -->
           <div class="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 aspect-video flex items-center justify-center">
-            <div class="text-4xl">🎮</div>
           </div>
 
           <!-- Description -->

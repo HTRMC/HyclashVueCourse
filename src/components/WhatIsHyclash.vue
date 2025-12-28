@@ -41,7 +41,6 @@ const features = [
         >
           <!-- Image placeholder -->
           <div class="aspect-video bg-gray-800 flex items-center justify-center">
-            <div class="text-4xl">🎮</div>
           </div>
 
           <!-- Content -->
