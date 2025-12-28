@@ -25,11 +25,11 @@ const features = [
 
 <template>
   <section class="py-20 w-full">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">WHAT IS HYCLASH?</h2>
         <p class="text-gray-400 max-w-3xl mx-auto">
-          HyClash is a server that uses strategies where anything you've ever believed! We've combined satisfying base building and resource management! Starting with the island to allow for your play in a 2D pixel area or either to choose to be a noble a class and lead rich outlasts, and an open world with countless interesting characters and quests.
+          Hyclash is a server (and game) experience unlike anything you've<br /> seen before! We've combined satisfying base building and resource<br /> management systems with the ability to queue into raids on other<br /> player's Strongholds! Much progression can also be found through<br /> expeditions (solo or co-op!) into mysterious dungeons. Well guarded<br /> and loot rich outposts. And an open world with countlress interesting<br /> characters and quests.
         </p>
       </div>
 

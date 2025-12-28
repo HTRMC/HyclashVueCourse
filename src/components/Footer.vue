@@ -3,7 +3,7 @@
 
 <template>
   <footer class="border-t border-gray-800 py-12 w-full">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       <div class="text-center space-y-4">
         <h3 class="text-white font-semibold text-lg">HyClash © 2025</h3>
         <p class="text-gray-400 text-sm">

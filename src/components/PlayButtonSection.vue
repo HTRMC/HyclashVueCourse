@@ -3,7 +3,7 @@
 
 <template>
   <section class="py-12 w-full">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       <div class="relative flex justify-center items-center">
         <!-- Fading line behind the button -->
         <div class="absolute inset-0 flex items-center">

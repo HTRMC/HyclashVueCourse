@@ -17,9 +17,10 @@ const items = [
 
 <template>
   <section class="py-20 w-full">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold text-white">TEMP</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">TEMP</h2>
+        <div class="w-full h-0.5 bg-gradient-to-r from-transparent via-[rgb(95,97,97)] to-transparent"></div>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

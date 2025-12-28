@@ -15,7 +15,7 @@
       <div class="absolute inset-0 bg-gradient-to-r from-[#0e161f] via-transparent to-[#0e161f]"></div>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <!-- Left side - Welcome text -->
         <div class="space-y-6">

@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="w-full px-4 sm:px-6 lg:px-8 pt-4">
+  <div class="w-full px-6 sm:px-8 lg:px-12 pt-4">
     <nav class="bg-[#0e161f] border border-gray-800 rounded-lg max-w-7xl mx-auto">
       <div class="px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
