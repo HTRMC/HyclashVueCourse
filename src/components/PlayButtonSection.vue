@@ -13,7 +13,7 @@
         <!-- Button container -->
         <div class="relative bg-[#0e161f] border-2 border-[rgb(95,97,97)] rounded px-3 py-2 z-10">
           <!-- Play button -->
-          <button class="bg-gradient-to-b from-[rgb(84,121,163)] to-[rgb(43,63,86)] hover:from-[rgb(94,131,173)] hover:to-[rgb(53,73,96)] text-white px-16 py-2 rounded border-2 border-[rgb(95,97,97)] text-xl font-semibold transition-all">
+          <button class="bg-gradient-to-b from-[rgb(84,121,163)] to-[rgb(43,63,86)] hover:from-[rgb(94,131,173)] hover:to-[rgb(53,73,96)] text-white px-16 py-2 rounded border-2 border-[rgb(95,97,97)] text-xl font-semibold font-['Cinzel'] transition-all">
             PLAY
           </button>
         </div>

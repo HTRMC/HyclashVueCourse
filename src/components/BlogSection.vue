@@ -22,7 +22,7 @@ const blogPosts = [
   <section class="py-20 w-full">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">BLOG</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-['Cinzel'] bg-gradient-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">BLOG</h2>
         <div class="w-full h-0.5 bg-gradient-to-r from-transparent via-[rgb(95,97,97)] to-transparent"></div>
       </div>
 
@@ -47,7 +47,7 @@ const blogPosts = [
       </div>
 
       <div class="mt-12 flex justify-center">
-        <button class="bg-linear-to-b from-[rgb(46,66,92)] to-[rgb(28,45,66)] hover:from-[rgb(56,76,102)] hover:to-[rgb(38,55,76)] text-white px-5 py-1 rounded-xl border-2 border-[rgb(95,97,97)] font-semibold transition-all">
+        <button class="bg-linear-to-b from-[rgb(46,66,92)] to-[rgb(28,45,66)] hover:from-[rgb(56,76,102)] hover:to-[rgb(38,55,76)] text-white px-5 py-1 rounded-xl border-2 border-[rgb(95,97,97)] font-semibold font-['Cinzel'] transition-all">
           READ MORE
         </button>
       </div>

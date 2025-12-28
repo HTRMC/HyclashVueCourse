@@ -10,11 +10,11 @@
         <div class="flex items-center gap-8">
           <div class="flex items-center gap-2">
             <img src="@/assets/logo.svg" alt="HyClash Logo" class="w-8 h-8" />
-            <span class="text-white font-bold text-lg">HyClash</span>
+            <span class="text-white font-bold text-lg font-['Cinzel']">HyClash</span>
           </div>
 
           <!-- Navigation Links -->
-          <div class="hidden md:flex items-center gap-6">
+          <div class="hidden md:flex items-center gap-6 font-['Cinzel']">
             <a href="#" class="text-gray-300 hover:text-white transition-colors">Games</a>
             <a href="#" class="text-gray-300 hover:text-white transition-colors">Leaderboards</a>
             <a href="#" class="text-gray-300 hover:text-white transition-colors">Forums</a>
