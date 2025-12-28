@@ -46,7 +46,7 @@ const features = [
           <!-- Content -->
           <div class="p-4 space-y-3">
             <p class="text-gray-300 text-sm">{{ feature.description }}</p>
-            <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md text-sm font-semibold transition-colors">
+            <button class="w-full bg-gradient-to-b from-[rgb(84,121,163)] to-[rgb(43,63,86)] hover:from-[rgb(94,131,173)] hover:to-[rgb(53,73,96)] text-white py-2 rounded border-2 border-[rgb(95,97,97)] text-sm font-semibold transition-all">
               Learn More
             </button>
           </div>

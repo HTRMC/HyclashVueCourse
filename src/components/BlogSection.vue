@@ -47,7 +47,7 @@ const blogPosts = [
       </div>
 
       <div class="mt-12 flex justify-center">
-        <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md font-semibold transition-colors">
+        <button class="bg-linear-to-b from-[rgb(46,66,92)] to-[rgb(28,45,66)] hover:from-[rgb(56,76,102)] hover:to-[rgb(38,55,76)] text-white px-5 py-1 rounded-xl border-2 border-[rgb(95,97,97)] font-semibold transition-all">
           READ MORE
         </button>
       </div>
