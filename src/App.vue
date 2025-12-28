@@ -1,21 +1,24 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+import HeroSection from './components/HeroSection.vue'
+import WhatIsHyclash from './components/WhatIsHyclash.vue'
+import TempSection from './components/TempSection.vue'
+import BlogSection from './components/BlogSection.vue'
 </script>
 
 <template>
-  <header class="leading-normal max-h-screen lg:flex lg:items-center lg:pr-[calc(var(--section-gap)/2)]">
-    <img alt="Vue logo" class="block mx-auto mb-8 lg:mx-0 lg:mr-8 lg:mb-0" src="@/assets/logo.svg" width="125" height="125" />
+  <div class="min-h-screen flex flex-col">
+    <Navbar />
 
-    <div class="lg:flex lg:items-start lg:flex-wrap">
-      <HelloWorld msg="You did it!" />
+    <main class="flex-1">
+      <HeroSection />
+      <WhatIsHyclash />
+      <TempSection />
+      <BlogSection />
+    </main>
 
-      <nav class="w-full text-xs text-center mt-8 lg:text-left lg:-ml-4 lg:text-base lg:py-4 lg:mt-4">
-        <RouterLink to="/" class="inline-block px-4 border-l border-[var(--color-border)] first:border-0 [&.router-link-exact-active]:text-[var(--color-text)] [&.router-link-exact-active:hover]:bg-transparent">Home</RouterLink>
-        <RouterLink to="/about" class="inline-block px-4 border-l border-[var(--color-border)] first:border-0 [&.router-link-exact-active]:text-[var(--color-text)] [&.router-link-exact-active:hover]:bg-transparent">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+    <Footer />
+  </div>
 </template>
+
