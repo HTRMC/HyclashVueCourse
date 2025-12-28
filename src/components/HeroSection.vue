@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <section class="relative py-20 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto">
+  <section class="relative py-20 w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <!-- Left side - Welcome text -->
         <div class="space-y-6">
@@ -25,7 +25,7 @@
 
         <!-- Right side - Promotional video/image -->
         <div class="relative">
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg overflow-hidden border border-gray-700 aspect-video">
+          <div class="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 aspect-video">
             <div class="w-full h-full flex items-center justify-center">
               <div class="text-center space-y-4">
                 <div class="text-6xl">🎮</div>

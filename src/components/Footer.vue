@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <footer class="bg-[#0a0f16] border-t border-gray-800 py-12">
+  <footer class="bg-[#0a0f16] border-t border-gray-800 py-12 w-full">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center space-y-4">
         <h3 class="text-white font-semibold text-lg">HyClash © 2025</h3>

@@ -16,8 +16,8 @@ const items = [
 </script>
 
 <template>
-  <section class="py-20 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto">
+  <section class="py-20 w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-white">TEMP</h2>
       </div>
@@ -29,7 +29,7 @@ const items = [
           class="space-y-4"
         >
           <!-- Image placeholder -->
-          <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg overflow-hidden border border-gray-700 aspect-video flex items-center justify-center">
+          <div class="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 aspect-video flex items-center justify-center">
             <div class="text-4xl">🎮</div>
           </div>
 

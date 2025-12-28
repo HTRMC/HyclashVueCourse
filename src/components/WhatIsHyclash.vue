@@ -24,8 +24,8 @@ const features = [
 </script>
 
 <template>
-  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-[#0a0f16]">
-    <div class="max-w-7xl mx-auto">
+  <section class="py-20 bg-[#0a0f16] w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">WHAT IS HYCLASH?</h2>
         <p class="text-gray-400 max-w-3xl mx-auto">
@@ -37,10 +37,10 @@ const features = [
         <div
           v-for="feature in features"
           :key="feature.id"
-          class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg overflow-hidden border border-gray-700 hover:border-blue-500 transition-colors"
+          class="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 hover:border-blue-500 transition-colors"
         >
           <!-- Image placeholder -->
-          <div class="aspect-video bg-gradient-to-br from-purple-900/30 to-blue-900/30 flex items-center justify-center">
+          <div class="aspect-video bg-gray-800 flex items-center justify-center">
             <div class="text-4xl">🎮</div>
           </div>
 

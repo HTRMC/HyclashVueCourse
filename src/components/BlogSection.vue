@@ -19,8 +19,8 @@ const blogPosts = [
 </script>
 
 <template>
-  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-[#0a0f16]">
-    <div class="max-w-7xl mx-auto">
+  <section class="py-20 bg-[#0a0f16] w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-white">BLOG</h2>
       </div>
@@ -29,11 +29,11 @@ const blogPosts = [
         <div
           v-for="post in blogPosts"
           :key="post.id"
-          class="bg-gradient-to-r from-gray-800/50 to-gray-900/50 rounded-lg overflow-hidden border border-gray-700 hover:border-blue-500 transition-colors"
+          class="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 hover:border-blue-500 transition-colors"
         >
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
             <!-- Image -->
-            <div class="aspect-video md:aspect-square bg-gradient-to-br from-purple-900/30 to-blue-900/30 rounded-lg flex items-center justify-center">
+            <div class="aspect-video md:aspect-square bg-gray-800 rounded-lg flex items-center justify-center">
               <div class="text-4xl">📰</div>
             </div>
 

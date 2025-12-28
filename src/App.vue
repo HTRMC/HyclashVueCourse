@@ -8,10 +8,10 @@ import BlogSection from './components/BlogSection.vue'
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col w-full">
     <Navbar />
 
-    <main class="flex-1">
+    <main class="flex-1 w-full">
       <HeroSection />
       <WhatIsHyclash />
       <TempSection />
