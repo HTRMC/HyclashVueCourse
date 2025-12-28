@@ -19,7 +19,7 @@ const blogPosts = [
 </script>
 
 <template>
-  <section class="py-20 bg-[#0a0f16] w-full">
+  <section class="py-20 w-full">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-white">BLOG</h2>

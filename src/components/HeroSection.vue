@@ -41,13 +41,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Play button -->
-      <div class="mt-12 flex justify-center">
-        <button class="bg-blue-600 hover:bg-blue-700 text-white px-12 py-3 rounded-md text-lg font-semibold transition-colors">
-          PLAY
-        </button>
-      </div>
     </div>
   </section>
 </template>
