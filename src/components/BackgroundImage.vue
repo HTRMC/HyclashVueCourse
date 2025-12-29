@@ -5,13 +5,17 @@ interface Props {
   blur?: string
   opacity?: string
   translateY?: string
+  fadeTop?: boolean
+  fadeBottom?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   alt: 'Background',
   blur: 'blur-[2px]',
   opacity: 'opacity-60',
-  translateY: '0%'
+  translateY: '0%',
+  fadeTop: true,
+  fadeBottom: true
 })
 </script>
 
@@ -24,8 +28,8 @@ const props = withDefaults(defineProps<Props>(), {
         :class="`w-full h-full object-cover ${blur} ${opacity}`"
       />
       <!-- Gradient overlays for vertical fade effect -->
-      <div class="absolute -inset-1 bg-gradient-to-b from-[#0e161f] from-0% via-[#0e161f]/70 via-20% to-transparent to-40%"></div>
-      <div class="absolute -inset-1 bg-gradient-to-t from-[#0e161f] from-0% via-[#0e161f]/70 via-20% to-transparent to-40%"></div>
+      <div v-if="fadeTop" class="absolute -inset-1 bg-gradient-to-b from-[#0e161f] from-0% via-[#0e161f]/70 via-20% to-transparent to-40%"></div>
+      <div v-if="fadeBottom" class="absolute -inset-1 bg-gradient-to-t from-[#0e161f] from-0% via-[#0e161f]/70 via-20% to-transparent to-40%"></div>
     </div>
   </div>
 </template>

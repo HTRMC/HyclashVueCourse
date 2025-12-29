@@ -1,19 +1,13 @@
 <script setup lang="ts">
+import BackgroundImage from './BackgroundImage.vue'
 </script>
 
 <template>
-  <section class="relative py-20 w-full overflow-hidden">
-    <!-- Blurry background image -->
-    <div class="absolute inset-0 z-0">
-      <img
-        src="@/assets/hero-bg.jpg"
-        alt="Background"
-        class="w-full h-full object-cover blur-[2px] opacity-90"
-      />
-      <!-- Gradient overlays for fade effect -->
-      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0e161f]"></div>
-      <div class="absolute inset-0 bg-gradient-to-r from-[#0e161f] via-transparent to-[#0e161f]"></div>
-    </div>
+  <section class="relative pt-64 pb-20 w-full overflow-hidden">
+    <BackgroundImage src="/hero-bg.jpg" opacity="opacity-90" :fade-top="false" />
+
+    <!-- Horizontal fade overlays -->
+    <div class="absolute inset-0 bg-gradient-to-r from-[#0e161f] via-transparent to-[#0e161f] z-[1]"></div>
 
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
