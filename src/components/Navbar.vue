@@ -2,16 +2,16 @@
 </script>
 
 <template>
-  <div class="w-full px-6 sm:px-8 lg:px-12 pt-4">
-    <nav class="bg-[#0e161f] border border-gray-800 rounded-lg max-w-7xl mx-auto">
+  <div class="w-full px-6 sm:px-8 lg:px-12 pt-4 relative z-50">
+    <nav class="bg-[#0e161f] border border-gray-800 rounded-lg max-w-7xl mx-auto relative">
       <div class="px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
+        <div class="flex items-center justify-between h-12">
         <!-- Logo -->
         <div class="flex items-center gap-8">
-          <div class="flex items-center gap-2">
-            <img src="@/assets/logo.svg" alt="HyClash Logo" class="w-8 h-8" />
-            <span class="text-white font-bold text-lg font-['Cinzel']">HyClash</span>
+          <div class="absolute -top-2 left-4 sm:left-6 lg:left-8">
+            <img src="/Logo.png" alt="HyClash Logo" class="h-20" />
           </div>
+          <div class="w-20"></div>
 
           <!-- Navigation Links -->
           <div class="hidden md:flex items-center gap-6 font-['Cinzel']">
@@ -25,8 +25,8 @@
 
         <!-- Right side buttons -->
         <div class="flex items-center gap-4">
-          <button class="text-gray-300 hover:text-white transition-colors">Clans</button>
-          <button class="bg-gray-800 hover:bg-gray-700 text-white rounded-full p-2 transition-colors">
+          <button class="text-gray-300 hover:text-white transition-colors font-['Cinzel']">Chaos</button>
+          <button class="bg-gray-800 hover:bg-gray-700 text-white rounded-xl p-2 transition-colors">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
             </svg>
