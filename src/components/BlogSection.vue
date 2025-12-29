@@ -22,7 +22,7 @@ const blogPosts = [
   <section class="py-20 w-full">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-['Cinzel'] bg-linear-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">BLOG</h2>
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 font-['Cinzel'] bg-gradient-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">BLOG</h2>
         <div class="w-full h-0.5 bg-linear-to-r from-transparent via-[rgb(95,97,97)] to-transparent"></div>
       </div>
 
@@ -39,8 +39,8 @@ const blogPosts = [
 
             <!-- Content -->
             <div class="md:col-span-2 flex flex-col justify-center space-y-3">
-              <h3 class="text-white font-semibold text-lg">{{ post.title }}</h3>
-              <p class="text-gray-400 text-sm">{{ post.description }}</p>
+              <h3 class="font-semibold text-lg bg-gradient-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">{{ post.title }}</h3>
+              <p class="text-white font-semibold text-sm">{{ post.description }}</p>
             </div>
           </div>
         </div>

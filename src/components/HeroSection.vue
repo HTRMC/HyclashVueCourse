@@ -19,7 +19,7 @@ import BackgroundImage from './BackgroundImage.vue'
               <h1 class="text-5xl md:text-6xl font-bold bg-linear-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">HYCLASH</h1>
             </div>
           </div>
-          <p class="text-gray-300 text-lg">
+          <p class="text-white text-lg font-semibold">
             An Open-world MMO RPG where you<br />
             don't just live in a world - you run one.
           </p>

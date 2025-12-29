@@ -50,7 +50,7 @@ const items = [
 
           <!-- Description -->
           <p
-            class="text-gray-300 text-sm leading-relaxed"
+            class="text-white font-semibold text-sm leading-relaxed"
             :class="index % 2 === 1 ? 'md:order-1' : ''"
           >
             {{ item.description }}
