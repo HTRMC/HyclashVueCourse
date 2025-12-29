@@ -2,14 +2,14 @@
 </script>
 
 <template>
-  <div class="fixed top-0 left-0 right-0 px-6 sm:px-8 lg:px-12 pt-4 z-50">
-    <nav class="bg-[#0e161f] border border-gray-800 rounded-lg max-w-7xl mx-auto relative">
-      <div class="px-4 sm:px-6 lg:px-8">
+  <div class="fixed top-0 left-0 right-0 px-6 sm:px-8 lg:px-12 pt-8 z-50">
+    <nav class="bg-[#0e161f]/50 backdrop-blur-[2px] border-t border-b border-gray-800 max-w-7xl mx-auto relative">
+      <div>
         <div class="flex items-center justify-between h-12">
         <!-- Logo -->
         <div class="flex items-center gap-8">
-          <div class="absolute -top-2 left-4 sm:left-6 lg:left-8">
-            <img src="/Logo.png" alt="HyClash Logo" class="h-20" />
+          <div class="absolute -top-6 left-0">
+            <img src="/Logo.png" alt="HyClash Logo" class="h-24" />
           </div>
           <div class="w-20"></div>
 
