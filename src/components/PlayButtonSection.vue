@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section class="py-12 w-full">
+  <section class="pt-12 w-full">
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
       <div class="relative flex justify-center items-center">
         <!-- Fading line behind the button -->

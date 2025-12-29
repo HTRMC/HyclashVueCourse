@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import BackgroundImage from './BackgroundImage.vue'
+
 const features = [
   {
     id: 1,
@@ -24,17 +26,8 @@ const features = [
 </script>
 
 <template>
-  <section class="relative py-20 w-full overflow-hidden">
-    <!-- Blurry background image -->
-    <div class="absolute inset-0 z-0">
-      <img
-        src="/RunRun.jpg"
-        alt="Background"
-        class="w-full h-full object-cover blur-[2px] opacity-60"
-      />
-      <!-- Gradient overlays for vertical fade effect -->
-      <div class="absolute inset-0 bg-gradient-to-b from-[#0e161f] via-transparent to-[#0e161f]"></div>
-    </div>
+  <section class="relative py-20 w-full">
+    <BackgroundImage src="/RunRun.jpg" translate-y="45%" />
 
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
       <div class="text-center mb-12">
