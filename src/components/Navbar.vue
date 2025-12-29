@@ -8,7 +8,7 @@
         <div class="flex items-center justify-between h-12">
         <!-- Logo -->
         <div class="flex items-center gap-8">
-          <div class="absolute -top-6 left-0">
+          <div class="absolute top-1/2 -translate-y-1/2 left-0">
             <img src="/Logo.png" alt="HyClash Logo" class="h-24" />
           </div>
           <div class="w-20"></div>
