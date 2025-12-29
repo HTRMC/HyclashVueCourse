@@ -28,8 +28,8 @@ const props = withDefaults(defineProps<Props>(), {
         :class="`w-full h-full object-cover ${blur} ${opacity}`"
       />
       <!-- Gradient overlays for vertical fade effect -->
-      <div v-if="fadeTop" class="absolute -inset-1 bg-gradient-to-b from-[#0e161f] from-0% via-[#0e161f]/70 via-20% to-transparent to-40%"></div>
-      <div v-if="fadeBottom" class="absolute -inset-1 bg-gradient-to-t from-[#0e161f] from-0% via-[#0e161f]/70 via-20% to-transparent to-40%"></div>
+      <div v-if="fadeTop" class="absolute -inset-1 bg-linear-to-b from-[#0e161f] from-0% via-[#0e161f]/70 via-20% to-transparent to-40%"></div>
+      <div v-if="fadeBottom" class="absolute bottom-0 left-0 right-0 h-3/4 bg-gradient-to-t from-[#0e161f] via-[#0e161f]/100 via-10% to-transparent"></div>
     </div>
   </div>
 </template>

@@ -7,7 +7,7 @@ import BackgroundImage from './BackgroundImage.vue'
     <BackgroundImage src="/hero-bg.jpg" opacity="opacity-90" :fade-top="false" />
 
     <!-- Horizontal fade overlays -->
-    <div class="absolute inset-0 bg-gradient-to-r from-[#0e161f] via-transparent to-[#0e161f] z-[1]"></div>
+    <div class="absolute inset-0 bg-linear-to-r from-[#0e161f] via-transparent to-[#0e161f] z-1"></div>
 
     <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -15,8 +15,8 @@ import BackgroundImage from './BackgroundImage.vue'
         <div class="space-y-6">
           <div class="inline-block">
             <div class="text-center">
-              <p class="text-2xl font-semibold uppercase tracking-wider font-['Cinzel'] bg-gradient-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">WELCOME TO</p>
-              <h1 class="text-5xl md:text-6xl font-bold bg-gradient-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">HYCLASH</h1>
+              <p class="text-2xl font-semibold uppercase tracking-wider font-['Cinzel'] bg-linear-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">WELCOME TO</p>
+              <h1 class="text-5xl md:text-6xl font-bold bg-linear-to-b from-[rgb(211,206,163)] to-[rgb(164,147,122)] bg-clip-text text-transparent">HYCLASH</h1>
             </div>
           </div>
           <p class="text-gray-300 text-lg">

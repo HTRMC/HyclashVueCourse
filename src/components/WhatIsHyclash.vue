@@ -5,22 +5,30 @@ const features = [
   {
     id: 1,
     title: 'Lorem Ipsum is simply dummy text',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    image: '/CorruptedGolem.jpg',
+    imageClass: 'object-top origin-top'
   },
   {
     id: 2,
     title: 'Lorem Ipsum is simply dummy text',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    image: '/Desert.jpg',
+    imageClass: 'object-center origin-center'
   },
   {
     id: 3,
     title: 'Lorem Ipsum is simply dummy text',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    image: '/Minigame.png',
+    imageClass: 'object-right-top origin-top-right'
   },
   {
     id: 4,
     title: 'Lorem Ipsum is simply dummy text',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    image: '/Friends.jpg',
+    imageClass: 'object-center origin-center'
   }
 ]
 </script>
@@ -41,14 +49,15 @@ const features = [
         <div
           v-for="feature in features"
           :key="feature.id"
-          class="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 hover:border-blue-500 transition-colors"
+          class="bg-gray-900/50 rounded-3xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-colors flex flex-col"
         >
-          <!-- Image placeholder -->
-          <div class="aspect-video bg-gray-800 flex items-center justify-center">
+          <!-- Image - takes up half -->
+          <div class="flex-1 bg-gray-800 overflow-hidden">
+            <img :src="feature.image" :alt="feature.title" :class="`w-full h-full object-cover scale-150 ${feature.imageClass}`" />
           </div>
 
-          <!-- Content -->
-          <div class="p-4 space-y-3">
+          <!-- Content - takes up half -->
+          <div class="flex-1 p-6 space-y-4 flex flex-col justify-between">
             <p class="text-gray-300 text-sm">{{ feature.description }}</p>
             <button class="w-full bg-gradient-to-b from-[rgb(84,121,163)] to-[rgb(43,63,86)] hover:from-[rgb(94,131,173)] hover:to-[rgb(53,73,96)] text-white py-2 rounded border-2 border-[rgb(95,97,97)] text-sm font-semibold font-['Cinzel'] transition-all">
               Learn More
